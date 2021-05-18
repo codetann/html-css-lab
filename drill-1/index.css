@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background: #444444;
+  position: relative;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+footer {
+  width: 100%;
+  background: #222222;
+  height: 5rem;
+}
+
+article {
+  width: 10rem;
+  height: 100%;
+  background: #d8d8d8;
+}
